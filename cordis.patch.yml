@@ -1,0 +1,22 @@
+# dsh-text-highlight —— bundle patch
+#
+# 把插件挂进 profile 的配置树。name 必须与安装后的包名完全一致。
+#
+# 安装（DSH 完全退出后）：
+#   dsh plugin --profile desktop add link:D:\dsh-plugins\dsh-text-highlight
+#
+# 配置项：
+#   enabled         是否开启关键词/整句着色（默认 true）
+#   fontFamily      CSS font-family 字体栈
+#   fontScope       all=界面+正文；markdown=只换正文
+#   codeFontFamily  代码块字体栈
+#   rules           关键词规则：[{ text, color, style }]，style = text|background|underline
+#   sentenceTriggers 整句高亮触发词：句子含这些词时整句上色
+#   sentenceColor   整句高亮颜色
+#   sentenceStyle   整句高亮样式：background|text|underline
+- insert:
+    - id: text-highlight
+      name: dsh-text-highlight
+      config:
+        enabled: true
+        fontScope: all

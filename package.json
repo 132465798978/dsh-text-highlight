@@ -1,0 +1,50 @@
+{
+  "name": "dsh-text-highlight",
+  "version": "0.1.0",
+  "description": "Highlight keywords and key sentences in DeepSeek Harness messages, and change the UI / message font.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "highlight",
+    "keyword",
+    "font",
+    "typography",
+    "css-highlight-api"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dassada511/dsh-text-highlight.git"
+  },
+  "homepage": "https://github.com/dassada511/dsh-text-highlight#readme",
+  "bugs": {
+    "url": "https://github.com/dassada511/dsh-text-highlight/issues"
+  },
+  "author": "dassada511",
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": ["@deepseek-ai/dsh-client-ui-layout"],
+      "platform": "web"
+    }
+  }
+}
