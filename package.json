@@ -30,13 +30,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dassada511/dsh-text-highlight.git"
+    "url": "git+https://github.com/132465798978/dsh-text-highlight.git"
   },
-  "homepage": "https://github.com/dassada511/dsh-text-highlight#readme",
+  "homepage": "https://github.com/132465798978/dsh-text-highlight#readme",
   "bugs": {
-    "url": "https://github.com/dassada511/dsh-text-highlight/issues"
+    "url": "https://github.com/132465798978/dsh-text-highlight/issues"
   },
-  "author": "dassada511",
+  "author": "132465798978",
   "license": "MIT",
   "dsh": {
     "bundle": {

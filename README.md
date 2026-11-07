@@ -9,7 +9,7 @@ A small `Aa` button sits at the bottom-left of the Web GUI. Click it to open the
 ## Install
 
 ```sh
-dsh plugin --profile web add "https://github.com/dassada511/dsh-text-highlight/releases/download/v0.1.0/dsh-text-highlight-0.1.0.tgz"
+dsh plugin --profile web add "https://github.com/132465798978/dsh-text-highlight/releases/download/v0.1.0/dsh-text-highlight-0.1.0.tgz"
 ```
 
 From a local checkout:
@@ -80,7 +80,7 @@ MIT. Use it, fork it, change it, ship it.
 ### 装
 
 ```sh
-dsh plugin --profile web add "https://github.com/dassada511/dsh-text-highlight/releases/download/v0.1.0/dsh-text-highlight-0.1.0.tgz"
+dsh plugin --profile web add "https://github.com/132465798978/dsh-text-highlight/releases/download/v0.1.0/dsh-text-highlight-0.1.0.tgz"
 ```
 
 装完刷新页面，左下角就出现 `Aa`。
